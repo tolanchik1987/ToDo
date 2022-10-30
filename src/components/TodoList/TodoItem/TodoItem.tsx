@@ -22,7 +22,8 @@ export const TodoItem: React.FC<TodoItemProps> = ({
         aria-hidden
         style={{
           opacity: todo.checked ? 0.5 : 1,
-          textDecoration: todo.checked ? 'line-through' : 'none'
+          textDecoration: todo.checked ? 'line-through' : 'none',
+			 color: todo.checked ? 'blue' :'chartreuse' 
         }}
         onClick={() => checkTodo(todo.id)}
         className={classes.todo_item_title}
@@ -35,10 +36,10 @@ export const TodoItem: React.FC<TodoItemProps> = ({
     </div>
     <div className={classes.todo_item_button_container}>
       <Button color='orange' onClick={() => selectTodoIdForEdit(todo.id)}>
-        EDIT
+        Изменить
       </Button>
       <Button color='red' onClick={() => deleteTodo(todo.id)}>
-        DELETE
+        Удалить
       </Button>
     </div>
   </div>
