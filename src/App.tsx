@@ -20,7 +20,7 @@ const DEFAULT_TODO_LIST = [
 const App = () => {
   const [todoIdForEdit, setTodoIdForEdit] = React.useState<number | null>(null);
   const [todos, setTodos] = React.useState(DEFAULT_TODO_LIST);
-
+  alert('welcom')
   const selectTodoIdForEdit = (id: Todo['id']) => {
     setTodoIdForEdit(id);
   };
