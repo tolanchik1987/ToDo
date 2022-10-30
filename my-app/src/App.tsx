@@ -6,21 +6,20 @@ import classes from './App.module.css';
 
 
 const DEFAULT_TODO_LIST = [
-  { id: 1, name: 'task 1', description: 'description 1', checked: false },
-  { id: 2, name: 'task 2', description: 'description 2', checked: false },
+  { id: 1, name: 'Тестовое задание', description: 'description 1', checked: false },
+  { id: 2, name: 'Прекрасный код', description: 'description 2', checked: true },
   {
     id: 3,
-    name: 'task 3',
+    name: 'Покрытие тестами',
     description:
       'so long task description 3 so long task description so long task description so long task description so long task description',
-    checked: true
+    checked: false
   }
 ];
 
 const App = () => {
   const [todoIdForEdit, setTodoIdForEdit] = React.useState<number | null>(null);
   const [todos, setTodos] = React.useState(DEFAULT_TODO_LIST);
-  alert('welcom')
   const selectTodoIdForEdit = (id: Todo['id']) => {
     setTodoIdForEdit(id);
   };

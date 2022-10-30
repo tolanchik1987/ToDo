@@ -1,3 +1,24 @@
+.loop_checkbox {
+   width: 30px;
+   height: 30px;
+   margin-top: 10px;
+   margin-right: 10px;
+   border: 1px solid gray;
+   border-radius: 50%;
+   position: relative;
+}
+.visible_img {
+   position: absolute;
+   left: 5px;
+   bottom: 5px;
+   width: 30px;
+}
+.none_img {
+   display: none;
+}
+.conteiner_loop_checkbox {
+   display: flex;
+}
 .todo_item_container {
    background-color: white;
    box-shadow: 0px 8px 11px -8px rgba(80, 34, 34, 0.09);
