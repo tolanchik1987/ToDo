@@ -41,8 +41,8 @@ export const TodoPanel: React.FC<TodoPanelProps> = (props) => {
       <div className={classes.fields_container}>
         <div className={classes.field_container}>
           <label htmlFor='name'>
-            <div>Название</div>
-            <input autoComplete='off' id='name' value={todo.name} onChange={onChange} name='name' />
+            <div>Задание</div>
+            <input autoComplete='off' id='name' value={todo.name} onChange={onChange} name='name' placeholder='Whats need to be done?'/>
           </label>
         </div>
         <div className={classes.field_container}>

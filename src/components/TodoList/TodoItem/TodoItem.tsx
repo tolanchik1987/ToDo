@@ -18,18 +18,20 @@ export const TodoItem: React.FC<TodoItemProps> = ({
 }) => (
   <div className={classes.todo_item_container} style={{ opacity: todo.checked ? 0.8 : 1 }}>
     <div>
+		<div className={classes.conteiner_loop_checkbox}>
+      <div  className={classes.loop_checkbox}><img className={ todo.checked ? classes.visible_img : classes.none_img} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png" alt=""/></div>
       <div
         aria-hidden
         style={{
           opacity: todo.checked ? 0.5 : 1,
           textDecoration: todo.checked ? 'line-through' : 'none',
-			 color: todo.checked ? 'blue' :'chartreuse' 
         }}
         onClick={() => checkTodo(todo.id)}
         className={classes.todo_item_title}
       >
         {todo.name}
       </div>
+		</div>
       <div aria-hidden onClick={() => checkTodo(todo.id)} className={classes.todo_item_description}>
         {todo.description}
       </div>
