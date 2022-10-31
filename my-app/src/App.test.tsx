@@ -8,7 +8,7 @@ describe('App component', () => {              // Группа тестов
 		expect(screen.getByText(/description 2/i)).toBeInTheDocument();    // Текст присутствует на странице
    	expect(screen.getByText(/Тестовое задание/i)).toBeInTheDocument();   // Текст присутствует на странице 
   	});
-	test('renders and not checkbox', () => {
+	test('renders and not checkbox in the document', () => {
 		render(<App />);
 	  	expect(screen.queryByRole('checkbox')).toBeNull()  //Элемента нет на странице
 	 });
@@ -16,7 +16,7 @@ describe('App component', () => {              // Группа тестов
 		const app = render(<App />)
 		expect(app).toMatchSnapshot()          // Создает папку _snapshots_ и записывает в файл данные snapshot (проверяет что файл не изменился)
 	 });
-	 test('App input placeholder text', () => {
+	 test('input placeholder text', () => {
 		render(<App />);
 		expect(screen.getByPlaceholderText(/Whats need to be done/i)).toBeInTheDocument() // Проверяет текст по умолчанию в инпуте (placeholder)
 	 })
