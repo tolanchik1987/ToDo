@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component App snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="app_container"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="header_container"
+          >
+            <h1
+              class="header_title"
+            >
+              Todos 
+              <b>
+                3
+              </b>
+               task(s)
+            </h1>
+          </div>
+          <div
+            class="todo_panel_container"
+          >
+            <div
+              class="fields_container"
+            >
+              <div
+                class="field_container"
+              >
+                <label
+                  for="name"
+                >
+                  <div>
+                    Задание
+                  </div>
+                  <input
+                    autocomplete="off"
+                    id="name"
+                    name="name"
+                    placeholder="Whats need to be done?"
+                    value=""
+                  />
+                </label>
+              </div>
+              <div
+                class="field_container"
+              >
+                <label
+                  for="description"
+                >
+                  <div>
+                    Описание
+                  </div>
+                  <input
+                    autocomplete="off"
+                    id="description"
+                    name="description"
+                    value=""
+                  />
+                </label>
+              </div>
+            </div>
+            <div
+              class="button_container"
+            >
+              <button
+                class="button button_blue"
+              >
+                Добавить
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="todo_item_container"
+              style="opacity: 1;"
+            >
+              <div>
+                <div
+                  class="conteiner_loop_checkbox"
+                >
+                  <div
+                    class="loop_checkbox"
+                  >
+                    <img
+                      alt=""
+                      class="none_img"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                    />
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="todo_item_title"
+                    style="opacity: 1; text-decoration: none;"
+                  >
+                    Тестовое задание
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_description"
+                >
+                  description 1
+                </div>
+              </div>
+              <div
+                class="todo_item_button_container"
+              >
+                <button
+                  class="button button_orange"
+                >
+                  Изменить
+                </button>
+                <button
+                  class="button button_red"
+                >
+                  Удалить
+                </button>
+              </div>
+            </div>
+            <div
+              class="todo_item_container"
+              style="opacity: 0.8;"
+            >
+              <div>
+                <div
+                  class="conteiner_loop_checkbox"
+                >
+                  <div
+                    class="loop_checkbox"
+                  >
+                    <img
+                      alt=""
+                      class="visible_img"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                    />
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="todo_item_title"
+                    style="opacity: 0.5; text-decoration: line-through;"
+                  >
+                    Прекрасный код
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_description"
+                >
+                  description 2
+                </div>
+              </div>
+              <div
+                class="todo_item_button_container"
+              >
+                <button
+                  class="button button_orange"
+                >
+                  Изменить
+                </button>
+                <button
+                  class="button button_red"
+                >
+                  Удалить
+                </button>
+              </div>
+            </div>
+            <div
+              class="todo_item_container"
+              style="opacity: 1;"
+            >
+              <div>
+                <div
+                  class="conteiner_loop_checkbox"
+                >
+                  <div
+                    class="loop_checkbox"
+                  >
+                    <img
+                      alt=""
+                      class="none_img"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                    />
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="todo_item_title"
+                    style="opacity: 1; text-decoration: none;"
+                  >
+                    Покрытие тестами
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_description"
+                >
+                  so long task description 3 so long task description so long task description so long task description so long task description
+                </div>
+              </div>
+              <div
+                class="todo_item_button_container"
+              >
+                <button
+                  class="button button_orange"
+                >
+                  Изменить
+                </button>
+                <button
+                  class="button button_red"
+                >
+                  Удалить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="app_container"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="header_container"
+        >
+          <h1
+            class="header_title"
+          >
+            Todos 
+            <b>
+              3
+            </b>
+             task(s)
+          </h1>
+        </div>
+        <div
+          class="todo_panel_container"
+        >
+          <div
+            class="fields_container"
+          >
+            <div
+              class="field_container"
+            >
+              <label
+                for="name"
+              >
+                <div>
+                  Задание
+                </div>
+                <input
+                  autocomplete="off"
+                  id="name"
+                  name="name"
+                  placeholder="Whats need to be done?"
+                  value=""
+                />
+              </label>
+            </div>
+            <div
+              class="field_container"
+            >
+              <label
+                for="description"
+              >
+                <div>
+                  Описание
+                </div>
+                <input
+                  autocomplete="off"
+                  id="description"
+                  name="description"
+                  value=""
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            class="button_container"
+          >
+            <button
+              class="button button_blue"
+            >
+              Добавить
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="todo_item_container"
+            style="opacity: 1;"
+          >
+            <div>
+              <div
+                class="conteiner_loop_checkbox"
+              >
+                <div
+                  class="loop_checkbox"
+                >
+                  <img
+                    alt=""
+                    class="none_img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                  />
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_title"
+                  style="opacity: 1; text-decoration: none;"
+                >
+                  Тестовое задание
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="todo_item_description"
+              >
+                description 1
+              </div>
+            </div>
+            <div
+              class="todo_item_button_container"
+            >
+              <button
+                class="button button_orange"
+              >
+                Изменить
+              </button>
+              <button
+                class="button button_red"
+              >
+                Удалить
+              </button>
+            </div>
+          </div>
+          <div
+            class="todo_item_container"
+            style="opacity: 0.8;"
+          >
+            <div>
+              <div
+                class="conteiner_loop_checkbox"
+              >
+                <div
+                  class="loop_checkbox"
+                >
+                  <img
+                    alt=""
+                    class="visible_img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                  />
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_title"
+                  style="opacity: 0.5; text-decoration: line-through;"
+                >
+                  Прекрасный код
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="todo_item_description"
+              >
+                description 2
+              </div>
+            </div>
+            <div
+              class="todo_item_button_container"
+            >
+              <button
+                class="button button_orange"
+              >
+                Изменить
+              </button>
+              <button
+                class="button button_red"
+              >
+                Удалить
+              </button>
+            </div>
+          </div>
+          <div
+            class="todo_item_container"
+            style="opacity: 1;"
+          >
+            <div>
+              <div
+                class="conteiner_loop_checkbox"
+              >
+                <div
+                  class="loop_checkbox"
+                >
+                  <img
+                    alt=""
+                    class="none_img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/600px-Light_green_check.svg.png"
+                  />
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="todo_item_title"
+                  style="opacity: 1; text-decoration: none;"
+                >
+                  Покрытие тестами
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="todo_item_description"
+              >
+                so long task description 3 so long task description so long task description so long task description so long task description
+              </div>
+            </div>
+            <div
+              class="todo_item_button_container"
+            >
+              <button
+                class="button button_orange"
+              >
+                Изменить
+              </button>
+              <button
+                class="button button_red"
+              >
+                Удалить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
